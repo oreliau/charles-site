@@ -1,0 +1,62 @@
+.font-name, .citation, .fontcontact{
+	font-family: 'Roboto', sans-serif;
+}
+
+.nom{
+	font-weight: bold;
+	color: #000000;
+}
+
+.prenom{
+	font-style: normal;
+    font-weight: 300;
+    color : #87CEEB;
+}
+
+.reseaux{
+	width: 20%;
+}
+
+.bannierre{position: relative;}
+
+.motiv{z-index: 1;
+max-height:600px ;
+width: 100%}
+
+.citation{
+	position: absolute;
+	z-index: 2;
+	top:50%;
+	left: 5%;
+}
+
+.profil{
+	margin-bottom: 10%;
+	margin-top: 10%;
+	border-radius: 5px;
+}
+
+.texte{
+	margin-top: 20%;
+	margin-left: 50px;
+}
+
+.bckcontact{
+	background-color: #DCDCDC;
+	max-height: 500px;
+}
+
+.contact{
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.fontcontact{
+	text-align: center; font-size: 25px;
+}
+
+.mention{
+	background-color: #373F3E;
+	color: white;
+	bottom: 0;
+}
