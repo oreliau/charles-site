@@ -1,27 +1,10 @@
-.font-name, .citation, .fontcontact{
+body{
 	font-family: 'Roboto', sans-serif;
-}
-
-.nom{
-	font-weight: bold;
-	color: #000000;
-}
-
-.prenom{
-	font-style: normal;
-    font-weight: 300;
-    color : #87CEEB;
 }
 
 .reseaux{
 	width: 20%;
 }
-
-.bannierre{position: relative;}
-
-.motiv{z-index: 1;
-max-height:600px ;
-width: 100%}
 
 .citation{
 	position: absolute;
@@ -30,6 +13,9 @@ width: 100%}
 	left: 5%;
 }
 
+.bio{
+	margin-top: 10%;
+}
 .profil{
 	margin-bottom: 10%;
 	margin-top: 10%;
