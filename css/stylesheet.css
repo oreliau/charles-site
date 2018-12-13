@@ -13,9 +13,12 @@ body{
 	left: 5%;
 }
 
-.bio{
-	margin-top: 10%;
+.flotteur{
+	z-index: 2;
+	top: -80px;
+
 }
+
 .profil{
 	margin-bottom: 10%;
 	margin-top: 10%;
