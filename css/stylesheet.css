@@ -6,6 +6,10 @@ img{
 	max-height: 50rem;
 }
 
+blockquote{
+	display: none;
+}
+
 .card {
         margin: 0 auto; /* Added */
         float: none; /* Added */
@@ -24,9 +28,13 @@ img{
 	left: 5%;
 }
 
+.citations{
+	font-family: 'Permanent Marker', cursive;
+}
+
 .flotteur{
 	z-index: 2;
-	top: -80px;
+	top: -27px;
 
 }
 
@@ -67,8 +75,18 @@ img{
 }
 .bannière{
 	height: 400px;
+	 top: 54px;
+	  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .footer{
 	display: inline;
+}
+
+.imgpresta{
+	background-image: url("https://picsum.photos/700/300?image=201");
 }

@@ -34,6 +34,9 @@
         <a class="nav-link" href="fourthtab.html">Ce que je propose</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="citation.html">Mes Citations favorites</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="fivetab.html">Contact et accès</a>
       </li>
     </ul>
@@ -48,10 +51,9 @@
 </nav>
 </header>
 
-<div class="card bg-dark text-white rounded-0 border-0">
-  <img class="bannière card-img rounded-0 border-0 img-fluid" src="./img/discussion.jpg" alt="Card Responsive image">
+<div class="card bannière" class="py-5 bg-image-full" style="background-image: url('./img/outil.jpg');">
   <div class="card-img-overlay">
-    <<blockquote class="blockquote  citation">
+    <blockquote class="blockquote  citation">
 		  <p class="mb-0">Dans la vie on ne fait pas ce que l'on veut mais on est responsable de ce que l'on est.</p>
 		  <footer class="blockquote-footer text-dark">Jean-Paul Sartre</footer>
 	</blockquote>
@@ -101,7 +103,26 @@
   </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-dark" style="margin-top: 10%">
+<div class="container-fluid bckcontact" style="margin-top: 10%">
+<form class="container contact">
+  <p class="fontcontact">Pour me contactez</p>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Adresse e-mail</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput2">Nom Prénom</label>
+    <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="Nom Prénom">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+  </div>
+  <button type="submit" class=" envoyer btn btn-dark btn-lg btn-outline-dark mx-auto d-block">ENVOYER</button>
+</form>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" >
   <div class="collapse navbar-collapse" style="display: inline;" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
