@@ -10,6 +10,10 @@ blockquote{
 	display: none;
 }
 
+.nom{
+	font-size: xx-large;
+}
+
 .card {
         margin: 0 auto; /* Added */
         float: none; /* Added */
