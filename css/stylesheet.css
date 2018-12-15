@@ -1,5 +1,5 @@
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 img{
@@ -17,6 +17,7 @@ img{
 }
 
 .citation{
+	font-family: 'Permanent Marker', cursive;
 	position: absolute;
 	z-index: 2;
 	top:50%;
@@ -33,6 +34,7 @@ img{
 	margin-bottom: 10%;
 	margin-top: 10%;
 	border-radius: 5px;
+	width: 50%
 }
 
 .texte{
@@ -62,4 +64,11 @@ img{
 
 .adressfooter{
 	list-style: none;
+}
+.bannière{
+	height: 400px;
+}
+
+.footer{
+	display: inline;
 }
