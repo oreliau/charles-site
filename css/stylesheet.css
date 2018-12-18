@@ -6,10 +6,44 @@ img{
 	max-height: 50rem;
 }
 
-blockquote{
-	display: none;
+
+/* bannière*/
+.fixed-top{
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
+.bannière{
+	height: 400px;
+	 top: 47px;
+	  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+   width: 100%
+}
+
+.nom{
+	font-size: xx-large;
+}
+
+.reseaux{
+	width: 30%;
+}
+
+.hideelem{
+	display: none;
+}
+/* title of page */
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+}
+
+
+/* book carousel */
 .carousel-control-prev-icon {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -30,27 +64,8 @@ blockquote{
   background-size: cover;
 }
 
-.nom{
-	font-size: xx-large;
-}
 
-.card {
-        margin: 0 auto;
-        float: none;
-        margin-bottom: 10px;
-}
 
-.reseaux{
-	width: 30%;
-}
-
-.citation{
-	font-family: 'Permanent Marker', cursive;
-	position: absolute;
-	z-index: 2;
-	top:50%;
-	left: 5%;
-}
 
 .citations{
 	font-family: 'Permanent Marker', cursive;
@@ -79,10 +94,6 @@ blockquote{
 	max-height: 500px;
 }
 
-.contact{
-	padding-top: 2%;
-	padding-bottom: 5%;
-}
 
 .fontcontact{
 	text-align: center; font-size: 25px;
@@ -97,16 +108,6 @@ blockquote{
 .adressfooter{
 	list-style: none;
 }
-.bannière{
-	height: 400px;
-	 top: 94px;
-	  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-   width: 100%
-}
 
 .footer{
 	display: inline;
@@ -119,10 +120,6 @@ blockquote{
 .adress-contact{
 	padding-bottom: 2%;
 	padding-top: 2%;
-}
-
-.booktitle{
-
 }
 
 .bckcitation{
