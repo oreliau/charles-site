@@ -92,8 +92,9 @@
         <form method="post">
                 <div class="text-center py-2">
                     <br>
-                    <h3>Contactez moi par sms ou bien directement par téléphone au 06.....</h3>
-                    <p>Si non contacte moi directement par message</p>
+                    <h3>Pour me contacter</h3>
+                    <p>Pour toute information ou pour prendre rendez-vous</p>
+                    <p><i class="fa fa-phone text-info"></i> Par téléphone ou sms au 06 61 87 03 13</p>
                 </div>
                 <div class="card-body p-3">
                     <!--Body-->
@@ -126,23 +127,7 @@
                     </div>
                 </div>
           </form>
-              <?php
-    if(isset($_POST['message'])){
-        $entete  = 'MIME-Version: 1.0' . "\r\n";
-        $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-        $entete .= 'From: ' . $_POST['email'] . "\r\n";
-
-        $message = '<h1>Message envoyé depuis la page Contact de monsite.fr</h1>
-        <p><b>Nom : </b>' . $_POST['nom'] . '<br>
-        <b>Email : </b>' . $_POST['email'] . '<br>
-        <b>Message : </b>' . $_POST['message'] . '</p>';
-
-        $retour = mail('oreliauk@gmail.com', 'Envoi depuis page Contact', $message, $entete);
-        if($retour) {
-            echo '<p>Votre message a bien été envoyé.</p>';
-        }
-    }
-    ?>
+          <?php echo "ceci est du texte"?>
       </div>
     </div>
   </div>
@@ -162,7 +147,7 @@
       <ul class="navbar-text">
   	   <li class="adressfooter text-white-50">Cabinet de Coaching: 45 rue Albert Dubost</li>
   			<li class="adressfooter text-white-50">76250 Deville les Rouen</li>
-  			<li class="adressfooter text-white-50">06.61.87.03.13</li>
+  			<li class="adressfooter text-white-50">06 61 87 03 13</li>
   		<ul>
     </div>
   </footer>
