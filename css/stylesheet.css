@@ -9,6 +9,10 @@ img{
 footer{
 	padding-bottom: 0px;
 }
+.formulaire{
+	display: none;
+}
+
 /* bannière*/
 .fixed-top{
 	padding-top: 0px;
@@ -37,6 +41,7 @@ footer{
 .hideelem{
 	display: none;
 }
+
 /* title of page */
 .card {
         margin: 0 auto;
@@ -125,7 +130,6 @@ footer{
 }
 
 .bckcitation{
-	 height: 500px;
 	border-radius: 25px;
 	width: 100%;
 		  background: no-repeat center center scroll;
