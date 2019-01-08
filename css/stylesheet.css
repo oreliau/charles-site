@@ -132,9 +132,17 @@ footer{
 .bckcitation{
 	border-radius: 25px;
 	width: 100%;
-		  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+	background: no-repeat center center scroll;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+  	-o-background-size: cover;
+}
+
+.pucerouge{
+	border-left: 5px solid #AF262F;
+}
+
+.bordure{
+	border-radius: 20px 0 / 20px;
 }
