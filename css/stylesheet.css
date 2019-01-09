@@ -21,13 +21,13 @@ footer{
 
 .bannière{
 	height: 400px;
-	 top: 47px;
-	  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-   width: 100%
+	top: 47px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	width: 100%
 }
 
 .nom{
@@ -146,3 +146,18 @@ footer{
 .bordure{
 	border-radius: 20px 0 / 20px;
 }
+
+.adntxt{color: rgb(128, 0, 32)}
+.adnborder{ background-color:  rgba(128, 0, 32, 0.5)}
+
+a 
+{ 
+text-decoration:none; 
+color: rgba(128, 0, 32, 0.8)
+} 
+
+.active{
+	color:  rgb(128, 0, 32) !important;
+}
+
+.video{padding-bottom: 2%}
