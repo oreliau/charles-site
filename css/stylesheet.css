@@ -3,16 +3,16 @@ body{
 	font-size: large;
 }
 
-img{
-	max-height: 50rem;
-}
+img, embed, object, video { max-width: 100%; }
 
 footer{
 	padding-bottom: 0px;
 }
+
 .formulaire{
 	display: none;
 }
+
 
 /* bannière*/
 .fixed-top{
@@ -141,7 +141,7 @@ footer{
 }
 
 .pucerouge{
-	border-left: 5px solid #AF262F;
+	border-left: 5px solid #800020;
 }
 
 .bordure{
@@ -195,3 +195,6 @@ color: rgba(128, 0, 32, 0.8)
     max-width: 960px;
   }
 }
+
+.ombre{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.7)!important;}
