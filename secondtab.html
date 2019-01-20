@@ -112,7 +112,7 @@
     </div>
   </div>
 
-  <div class="container-fluid" style="background-color: rgb(238, 238, 238);">
+  <div class="container-fluid pb-5 pt-5" style="background-color: rgb(238, 238, 238);">
     <br>
     <div class="container row">
       <div class="col col-lg-3">
@@ -138,17 +138,18 @@ singulière</li>
     </div>
   </div>
 
- <!-- contact me -->
+<!-- contact me -->
   <div class="container-fluid bckcontact">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 col-lg-6 pb-5">
         <!-- form with header -->
-        <form >
+        <form method="post">
                 <div class="text-center py-2">
                     <br>
-                    <h3>Pour me contacter</h3>
-                    <p>Pour toute information ou pour prendre rendez-vous</p>
-                    <p><i class="fa fa-phone text-info"></i> Par téléphone ou sms au 06 61 87 03 13</p>
+                    <h3 class="font-weight-bold">Pour me contacter</h3>
+                    <p class="">Pour toute information ou pour prendre rendez-vous</p>
+                    <p><a href="tel:+330661870913" ><i class="fa fa-phone adntxt"></i>&nbsp;06 61 87 03 13</a></p>
+                    <p><a href="mailto:charles.hariel@laposte.net"><i class="fa fa-envelope adntxt"></i>&nbsp;charles.hariel@laposte.net</a></p>
                 </div>
                 <div class="card-body formulaire p-3">
                     <!--Body-->
@@ -168,7 +169,6 @@ singulière</li>
                             <input type="email" class="form-control" id="nom" name="email" placeholder="email" required>
                         </div>
                     </div>
-
                     <div class="form-group">
                         <div class="input-group mb-2">
                             <div class="input-group-prepend">
@@ -178,13 +178,15 @@ singulière</li>
                         </div>
                     </div>
                     <div class="text-center">
-                        <button type="" id="boutton" class="envoyer btn btn-dark btn-lg btn-outline-dark mx-auto d-block">ENVOYER</button>
+                        <input type="submit" id="boutton" class="envoyer btn btn-dark btn-lg btn-outline-dark mx-auto d-block">
                     </div>
                 </div>
           </form>
+          <?php echo "ceci est du texte"?>
       </div>
     </div>
   </div>
+  <!-- end contact me -->
 
   <!-- footer -->
   <footer class=" bg-dark">
